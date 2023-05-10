@@ -1,0 +1,33 @@
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-title{
+    min-width: 150px;
+}
+
+
+.card:hover .card-button {
+    opacity: .5;
+}
+
+.card-button {
+    opacity: 0;
+    transition: opacity 0.1s linear;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    background: #D6E7FF url("../../images/Edit.svg") center/20px no-repeat;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.card-button:hover {
+    opacity: 1 !important;
+}
+
+.card-button:focus {
+    opacity: 1 !important;
+}

@@ -1,0 +1,27 @@
+.AddTaskContainer{
+    width: 250px;
+    height: 150px;
+    background-color: #6EB5C0;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 5%;
+    border: 1px solid rgba(83, 82, 82, 0.16);
+}
+
+.add-task-title{
+    margin: 0;
+}
+
+.add-task-form {
+
+}
+
+.add-task-input{
+    border: 1px solid rgba(175, 175, 223, 0.65);
+    border-radius: 5%;
+}
+
+.add-task-button{
+    padding: 10px 30px 10px;
+    background-color: #6EB5C0;
+}
