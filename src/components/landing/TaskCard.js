@@ -1,8 +1,8 @@
 import "./TaskCard.css"
 import {useForm} from "../../context/useForm";
 import {useEffect, useRef, useState} from "react";
-import editImage from "../../images/Edit.svg"
-import deleteImage from "../../images/Delete.svg"
+// import editImage from "../../images/Edit.svg"
+// import deleteImage from "../../images/Delete.svg"
 import {useDrag} from "react-dnd";
 
 export function TaskCard({setTasks, tasks, task, ...props}) {
@@ -67,7 +67,7 @@ export function TaskCard({setTasks, tasks, task, ...props}) {
                             alignSelf: "center",
                             width: "25px",
                             height: "25px",
-                            background: `#D6E7FF url(${editImage}) center/20px no-repeat`,
+                            background: `#D6E7FF center/20px no-repeat`,
                             borderRadius: "10%",
                             textAlign: "center"
                         }}
@@ -84,7 +84,7 @@ export function TaskCard({setTasks, tasks, task, ...props}) {
                             alignSelf: "center",
                             width: "25px",
                             height: "25px",
-                            background: `#D6E7FF url(${deleteImage}) center/20px no-repeat`,
+                            background: `#D6E7FF center/20px no-repeat`,
                             borderRadius: "10%",
                             textAlign: "center"
                         }}
