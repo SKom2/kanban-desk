@@ -1,33 +1,49 @@
 .card-body{
     display: flex;
+    cursor: grab;
     justify-content: space-between;
-    gap: 10px;
 }
 
-.card-title{
+.card-input{
+    margin: 0;
+    padding: 0;
     min-width: 150px;
+    border: none;
 }
 
+.card-input:disabled{
+    background-color: white;
+}
+
+.card-input:focus{
+    color: #212529;
+    background-color: #fff;
+    border-bottom: 2px solid #D6E7FF;
+    outline: 0;
+}
 
 .card:hover .card-button {
     opacity: .5;
 }
 
-.card-button {
-    opacity: 0;
-    transition: opacity 0.1s linear;
-    align-self: center;
-    width: 25px;
-    height: 25px;
-    background: #D6E7FF url("../../images/Edit.svg") center/20px no-repeat;
-    border-radius: 10%;
-    text-align: center;
-}
+/*.card-button {*/
+/*    opacity: 0;*/
+/*    transition: opacity .1s linear;*/
+/*    border: none;*/
+/*    align-self: center;*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*    background: #D6E7FF url("../../images/Edit.svg") center/20px no-repeat;*/
+/*    border-radius: 10%;*/
+/*    text-align: center;*/
+/*}*/
 
 .card-button:hover {
     opacity: 1 !important;
 }
 
-.card-button:focus {
+.card-button-active {
     opacity: 1 !important;
 }
+
+
