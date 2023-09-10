@@ -1,4 +1,5 @@
 {
+  "homepage": "https://skom2.github.io/kanban-desk/",
   "name": "kanban-desk",
   "version": "0.1.0",
   "private": true,
@@ -47,7 +48,6 @@
     ]
   },
   "devDependencies": {
-    "homepage": "https://github.com/SKom2/kanban-desk",
     "gh-pages": "^5.0.0"
   }
 }
