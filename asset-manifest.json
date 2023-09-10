@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.245a00e2.css",
-    "main.js": "/static/js/main.7bd89c1e.js",
-    "index.html": "/index.html",
-    "static/media/Edit.svg": "/static/media/Edit.af464fdb4160a101ef0cdb0352e14890.svg",
-    "static/media/Delete.svg": "/static/media/Delete.8094e194700f55b65249bf4b238c0747.svg",
-    "main.245a00e2.css.map": "/static/css/main.245a00e2.css.map",
-    "main.7bd89c1e.js.map": "/static/js/main.7bd89c1e.js.map"
+    "main.css": "/kanban-desk/static/css/main.245a00e2.css",
+    "main.js": "/kanban-desk/static/js/main.ad755852.js",
+    "index.html": "/kanban-desk/index.html",
+    "static/media/Edit.svg": "/kanban-desk/static/media/Edit.af464fdb4160a101ef0cdb0352e14890.svg",
+    "static/media/Delete.svg": "/kanban-desk/static/media/Delete.8094e194700f55b65249bf4b238c0747.svg",
+    "main.245a00e2.css.map": "/kanban-desk/static/css/main.245a00e2.css.map",
+    "main.ad755852.js.map": "/kanban-desk/static/js/main.ad755852.js.map"
   },
   "entrypoints": [
     "static/css/main.245a00e2.css",
-    "static/js/main.7bd89c1e.js"
+    "static/js/main.ad755852.js"
   ]
 }
